@@ -130,13 +130,13 @@ Lists -> Indexable ordered sequence of objects
 # print(sum_and_prod([2,3,4,5,6]))
 
 # Finger Exercise
-def dot_product(tA, tB):
-    length = len(tA)
-    dot = 0
-    for i in range(len(tA)):
-        dot += tA[i]*tB[i]
-    return (length, dot)
+# def dot_product(tA, tB):
+#     length = len(tA)
+#     dot = 0
+#     for i in range(len(tA)):
+#         dot += tA[i]*tB[i]
+#     return (length, dot)
 
-tA = (2,4,7)  
-tB = (3,2,5)
-print(dot_product(tA, tB))
+# tA = (2,4,7)  
+# tB = (3,2,5)
+# print(dot_product(tA, tB))
